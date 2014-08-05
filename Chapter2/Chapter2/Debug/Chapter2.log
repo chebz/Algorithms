@@ -1,0 +1,71 @@
+﻿Build started 7/29/2014 11:49:33 PM.
+     1>Project "C:\Users\Misha\Documents\GameProjects\Algorithms\Chapter2\Chapter2\Chapter2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Misha\Documents\GameProjects\NTL_Cpp\NTL\NTL /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(10): error C2065: 'head' : undeclared identifier
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(10): error C2227: left of '->next' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(10): error C2065: 'tail' : undeclared identifier
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(15): error C2248: 'CollectionBase<T>::Node' : cannot access inaccessible struct declared in class 'CollectionBase<T>'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\misha\documents\gameprojects\ntl_cpp\ntl\ntl\collectionbase.h(11) : see declaration of 'CollectionBase<T>::Node'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(16): error C2248: 'CollectionBase<T>::Node' : cannot access inaccessible struct declared in class 'CollectionBase<T>'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\misha\documents\gameprojects\ntl_cpp\ntl\ntl\collectionbase.h(11) : see declaration of 'CollectionBase<T>::Node'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(16): error C2065: 'head' : undeclared identifier
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(17): error C2248: 'CollectionBase<T>::Node' : cannot access inaccessible struct declared in class 'CollectionBase<T>'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\misha\documents\gameprojects\ntl_cpp\ntl\ntl\collectionbase.h(11) : see declaration of 'CollectionBase<T>::Node'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(21): error C2039: 'next' : is not a member of 'CollectionBase<T>::Node'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\misha\documents\gameprojects\ntl_cpp\ntl\ntl\collectionbase.h(11) : see declaration of 'CollectionBase<T>::Node'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(22): error C2039: 'next' : is not a member of 'CollectionBase<T>::Node'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\misha\documents\gameprojects\ntl_cpp\ntl\ntl\collectionbase.h(11) : see declaration of 'CollectionBase<T>::Node'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(27): error C2065: 'head' : undeclared identifier
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(28): error C2065: 'head' : undeclared identifier
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(28): error C2065: 'tail' : undeclared identifier
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\reverse.h(29): error C2065: 'tail' : undeclared identifier
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\bfs1.h(119): error C2039: 'add' : is not a member of 'LinkedList<Member *>'
+     1>c:\users\misha\documents\gameprojects\algorithms\chapter2\chapter2\source.cpp(68): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "C:\Users\Misha\Documents\GameProjects\Algorithms\Chapter2\Chapter2\Chapter2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.28

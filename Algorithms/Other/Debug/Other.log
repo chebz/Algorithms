@@ -1,0 +1,16 @@
+﻿Build started 8/5/2014 1:03:12 AM.
+     1>Project "C:\Users\Misha\Documents\GitHub\Algorithms\Algorithms\Other\Other.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source_other.cpp
+         Source_other.cpp
+     1>c:\users\misha\documents\github\algorithms\algorithms\other\largestdistance.h(15): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\misha\documents\github\algorithms\algorithms\other\largestdistance.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\misha\documents\github\algorithms\algorithms\other\largestdistance.h(30): warning C4018: '>=' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Misha\Documents\GitHub\Algorithms\Algorithms\Debug\Other.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Misha\Documents\GitHub\Algorithms\Algorithms\Debug\Other.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Misha\Documents\GitHub\Algorithms\Algorithms\Debug\Other.lib" /MACHINE:X86 Debug\Source_other.obj
+         Other.vcxproj -> C:\Users\Misha\Documents\GitHub\Algorithms\Algorithms\Debug\Other.exe
+     1>Done Building Project "C:\Users\Misha\Documents\GitHub\Algorithms\Algorithms\Other\Other.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.47
