@@ -23,5 +23,8 @@
     <ClInclude Include="LargestDistance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CompareArrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

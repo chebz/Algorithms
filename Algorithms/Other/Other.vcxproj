@@ -81,6 +81,7 @@
     <ClCompile Include="Source_other.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CompareArrays.h" />
     <ClInclude Include="LargestDistance.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
