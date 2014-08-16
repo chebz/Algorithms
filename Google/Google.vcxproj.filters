@@ -32,5 +32,8 @@
     <ClInclude Include="RegExMatch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Tuples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

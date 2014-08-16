@@ -3,12 +3,13 @@
 #include "TicTacToe.h"
 #include "HeapSort.h"
 #include "RegExMatch.h"
+#include "Tuples.h"
 
 using namespace std;
 
 int main()
 {
-	testIsMatch();
+	testCountTuples();
 
 	int n;
 	cin >> n;
