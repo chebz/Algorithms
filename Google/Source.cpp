@@ -2,12 +2,13 @@
 #include "DisjointBitmap.h"
 #include "TicTacToe.h"
 #include "HeapSort.h"
+#include "RegExMatch.h"
 
 using namespace std;
 
 int main()
 {
-	heapSortTest();
+	testIsMatch();
 
 	int n;
 	cin >> n;
