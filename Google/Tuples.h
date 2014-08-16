@@ -57,6 +57,7 @@ void countTriplets(const int * arr, int length, vector<Triplet*>& triplets)
 		if (i > 0 && arr[i - 1] == arr[i])
 			continue;		
 
+		//Add new tuples to deque on this level
 		int nTriplets = countTriplets(elementID++, unique);
 		for (int t = 0; t < nTriplets; ++t)
 		{
@@ -64,6 +65,8 @@ void countTriplets(const int * arr, int length, vector<Triplet*>& triplets)
 			constructed.push_front(triplet);
 		}
 
+		//Process existing tuples in deque by adding arr[i] to the first nConstructed elements
+		//if tuple has 3 elements pop it and add it to result
 		for (int t = 0; t < nConstructed; ++t)
 		{
 			Triplet *first = constructed.front();
