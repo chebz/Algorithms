@@ -23,5 +23,8 @@
     <ClInclude Include="DisjointBitmap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TicTacToe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

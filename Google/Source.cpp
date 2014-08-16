@@ -1,11 +1,12 @@
 #include <iostream>
 #include "DisjointBitmap.h"
+#include "TicTacToe.h"
 
 using namespace std;
 
 int main()
 {
-	countDisjointsTest();
+	playTicTacToe();
 
 	int n;
 	cin >> n;
