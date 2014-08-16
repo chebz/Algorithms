@@ -1,12 +1,13 @@
 #include <iostream>
 #include "DisjointBitmap.h"
 #include "TicTacToe.h"
+#include "HeapSort.h"
 
 using namespace std;
 
 int main()
 {
-	playTicTacToe();
+	heapSortTest();
 
 	int n;
 	cin >> n;
