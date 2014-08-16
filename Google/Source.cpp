@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	testCountTuples();
+	heapSortTest();
 
 	int n;
 	cin >> n;

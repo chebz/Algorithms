@@ -85,6 +85,7 @@
     <ClInclude Include="HeapSort.h" />
     <ClInclude Include="RegExMatch.h" />
     <ClInclude Include="TicTacToe.h" />
+    <ClInclude Include="TilesDictionary.h" />
     <ClInclude Include="Tuples.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

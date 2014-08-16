@@ -35,5 +35,8 @@
     <ClInclude Include="Tuples.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TilesDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
