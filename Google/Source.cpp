@@ -4,12 +4,13 @@
 #include "HeapSort.h"
 #include "RegExMatch.h"
 #include "Tuples.h"
+#include "Pow.h"
 
 using namespace std;
 
 int main()
 {
-	heapSortTest();
+	powTest();
 
 	int n;
 	cin >> n;
