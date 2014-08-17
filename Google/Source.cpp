@@ -5,12 +5,13 @@
 #include "RegExMatch.h"
 #include "Tuples.h"
 #include "Pow.h"
+#include "Palindrome.h"
 
 using namespace std;
 
 int main()
 {
-	powTest();
+	palindromeTest();
 
 	int n;
 	cin >> n;

@@ -83,6 +83,7 @@
   <ItemGroup>
     <ClInclude Include="DisjointBitmap.h" />
     <ClInclude Include="HeapSort.h" />
+    <ClInclude Include="Palindrome.h" />
     <ClInclude Include="Pow.h" />
     <ClInclude Include="RegExMatch.h" />
     <ClInclude Include="TicTacToe.h" />

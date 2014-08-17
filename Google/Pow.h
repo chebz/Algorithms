@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 #pragma once
 
 int pow(int a, int b)
