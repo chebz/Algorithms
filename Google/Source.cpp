@@ -6,12 +6,13 @@
 #include "Tuples.h"
 #include "Pow.h"
 #include "Palindrome.h"
+#include "ZigZag.h"
 
 using namespace std;
 
 int main()
 {
-	palindromeTest();
+	testCountTuples();
 
 	int n;
 	cin >> n;

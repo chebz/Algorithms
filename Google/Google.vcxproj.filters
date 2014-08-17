@@ -44,5 +44,8 @@
     <ClInclude Include="Palindrome.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ZigZag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
