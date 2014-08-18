@@ -78,6 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="maxPointsOnLine.h" />
     <ClInclude Include="RPN.h" />
   </ItemGroup>
   <ItemGroup>

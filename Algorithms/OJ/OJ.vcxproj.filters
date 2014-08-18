@@ -23,5 +23,8 @@
     <ClInclude Include="RPN.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="maxPointsOnLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
