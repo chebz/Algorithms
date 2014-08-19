@@ -1,11 +1,10 @@
 #include <iostream>
-#include "RPN.h"
-#include "maxPointsOnLine.h"
+#include "Candy.h"
 using namespace std;
 
 int main()
 {
-	testMaxPoints();
+	testMergeSort();
 
 	int n;
 	cin >> n;
