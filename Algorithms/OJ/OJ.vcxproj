@@ -82,8 +82,10 @@
     <ClInclude Include="BinaryPreOrder.h" />
     <ClInclude Include="Candy.h" />
     <ClInclude Include="CopyListRandom.h" />
+    <ClInclude Include="GasStation.h" />
     <ClInclude Include="InsertSort.h" />
     <ClInclude Include="ListSort.h" />
+    <ClInclude Include="LongestPalindromeManachers.h" />
     <ClInclude Include="LRUCache.h" />
     <ClInclude Include="maxPointsOnLine.h" />
     <ClInclude Include="MergeSortWithIterator.h" />

@@ -59,5 +59,11 @@
     <ClInclude Include="MergeSortWithIterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GasStation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestPalindromeManachers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

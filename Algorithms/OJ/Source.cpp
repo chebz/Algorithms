@@ -1,10 +1,11 @@
 #include <iostream>
-#include "Candy.h"
+#include "LongestPalindromeManachers.h"
 using namespace std;
 
 int main()
 {
-	testMergeSort();
+	Solution s;
+	s.test();
 
 	int n;
 	cin >> n;
