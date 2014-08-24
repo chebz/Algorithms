@@ -1,11 +1,10 @@
 #include <iostream>
-#include "RPN.h"
-#include "maxPointsOnLine.h"
+#include "singleNumber2.h"
 using namespace std;
 
 int main()
 {
-	testMaxPoints();
+	testSingleNumber();
 
 	int n;
 	cin >> n;

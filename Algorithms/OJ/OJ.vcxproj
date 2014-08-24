@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClInclude Include="maxPointsOnLine.h" />
     <ClInclude Include="RPN.h" />
+    <ClInclude Include="singleNumber2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />

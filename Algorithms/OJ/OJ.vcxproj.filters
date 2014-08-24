@@ -26,5 +26,8 @@
     <ClInclude Include="maxPointsOnLine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="singleNumber2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
