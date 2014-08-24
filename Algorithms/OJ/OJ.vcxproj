@@ -78,9 +78,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryPostOrder.h" />
+    <ClInclude Include="BinaryPreOrder.h" />
+    <ClInclude Include="Candy.h" />
+    <ClInclude Include="CopyListRandom.h" />
+    <ClInclude Include="GasStation.h" />
+    <ClInclude Include="InsertSort.h" />
+    <ClInclude Include="ListSort.h" />
+    <ClInclude Include="LongestPalindromeManachers.h" />
+    <ClInclude Include="LRUCache.h" />
     <ClInclude Include="maxPointsOnLine.h" />
+    <ClInclude Include="MergeSortWithIterator.h" />
     <ClInclude Include="RPN.h" />
-    <ClInclude Include="singleNumber2.h" />
+    <ClInclude Include="SingleNumber.h" />
+    <ClInclude Include="WordBreak.h" />
+    <ClInclude Include="WordBreak2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />

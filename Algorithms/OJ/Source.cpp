@@ -1,10 +1,11 @@
 #include <iostream>
-#include "singleNumber2.h"
+#include "LongestPalindromeManachers.h"
 using namespace std;
 
 int main()
 {
-	testSingleNumber();
+	Solution s;
+	s.test();
 
 	int n;
 	cin >> n;
