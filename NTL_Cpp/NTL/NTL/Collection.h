@@ -3,7 +3,7 @@
 
 #pragma once
 
-template <typename T>
+template <class T>
 class Collection
 {
 protected:
@@ -24,22 +24,21 @@ public:
 	{
 	protected:
 		friend class Collection<T>;
-		Node* p;
+		Node* _p;
 	public:
-		Iterator(Node* p) : p(p) {}
-		Iterator(const Iterator& other) : p(other.p) {}
-		Iterator& operator=(Iterator other) { Utils::swap(p, other.p); return *this; }
-		virtual Iterator&  operator++() = 0;
-		virtual Iterator&  operator++(int) = 0;
-		bool operator==(const Iterator& other) { return p == other.p; }
-		bool operator!=(const Iterator& other) { return !(p == other.p); }
-		const T& operator*() const { return p->data; }
-		Iterator& operator+(int i)
-		{
-			Iterator iter = *this;
-			while (i-- > 0 && iter.p)
-				++iter;
-			return iter;
+		Iterator(Node* p) : _p(p) {}
+
+		Iterator(const Iterator& other) : _p(other._p) {}
+
+		Iterator& operator=(Iterator other) { 
+			Utils::swap(_p, other._p); 
+			return *this; 
+		}
+
+		bool operator==(const Iterator& other) { return _p == other._p; }
+		bool operator!=(const Iterator& other) { return !(_p == other._p); }
+		const T& operator*() const { 
+			return _p->data; 
 		}
 	};
 
@@ -52,6 +51,6 @@ public:
 		return _size;
 	}
 
-	virtual Iterator begin() = 0;
-	virtual Iterator end() = 0;
+	/*virtual Iterator begin() = 0;
+	virtual Iterator end() = 0;*/
 };

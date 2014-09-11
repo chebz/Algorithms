@@ -8,6 +8,7 @@ class Stack : protected LinkedList<T>
 {
 public:
 	Stack() : LinkedList() {}
+	Stack(const Stack& other) : LinkedList(other) {}
 
 	virtual void push(const T& data)
 	{

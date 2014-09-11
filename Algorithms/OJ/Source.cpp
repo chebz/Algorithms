@@ -1,5 +1,5 @@
 #include <iostream>
-#include "LongestPalindromeManachers.h"
+#include "DistinctSubsequence.h"
 using namespace std;
 
 int main()
