@@ -1,6 +1,7 @@
 #include "Collection.h"
 
 #pragma once
+class LinkedListIterator;
 
 template <class T>
 class LinkedList : public Collection<T>
@@ -26,11 +27,31 @@ public:
 	{
 	public:
 		LinkedListIterator(ListNode* p) : Iterator(p) {}
-		Iterator&  operator++() { p = static_cast<ListNode*>(p)->next; return *this; }
-		Iterator&  operator++(int) { p = static_cast<ListNode*>(p)->next; return *this; }
+		LinkedListIterator(const LinkedListIterator& other) : Iterator(other) {}
+		
+		LinkedListIterator& operator++() {
+			_p = static_cast<ListNode*>(_p)->next; 
+			return *this; 
+		}
+
+		LinkedListIterator operator++(int) {
+			LinkedListIterator temp = *this;
+			++*this;
+			return temp;
+		}
 	};
 
-	LinkedList() : Collection(), _first(nullptr), _last(nullptr) {}
+	LinkedList() : Collection(), _last(new ListNode()) 
+	{
+		_first = _last;
+	}
+
+	LinkedList(const LinkedList& other) : Collection(), _last(new ListNode())
+	{
+		for (auto it = other.begin(); it != other.end(); ++it) {
+			push_back(*it);
+		}
+	}
 
 	~LinkedList()
 	{
@@ -41,24 +62,23 @@ public:
 			delete tmp;
 			--_size;
 		}
+		delete _last;
 	}
 
 	void push_back(const T& data)
 	{
-		ListNode * node = new ListNode(data);
+		ListNode * node = new ListNode();
+		_last->data = data;
+		_last->next = node;
 		if (_size == 0)
-			_first = node;
-		else
-			_last->next = node;
+			_first = _last;
 		_last = node;
 		++_size;
 	}
 
 	void push_front(const T& data)
 	{
-		ListNode * node = dynamic_cast<ListNode*>(allocateNode(data));
-		if (_size == 0)
-			_last = node;
+		ListNode * node = static_cast<ListNode*>(allocateNode(data));
 		node->next = _first;
 		_first = node;
 		++_size;
@@ -81,6 +101,8 @@ public:
 		return data;
 	}
 
-	Iterator begin() { return LinkedListIterator(_first); }
-	Iterator end() { return LinkedListIterator(_last); }
+	LinkedListIterator begin() { return LinkedListIterator(_first); }
+	LinkedListIterator end() { return LinkedListIterator(_last); }
+	LinkedListIterator begin() const { return LinkedListIterator(_first); }
+	LinkedListIterator end() const { return LinkedListIterator(_last); }
 };

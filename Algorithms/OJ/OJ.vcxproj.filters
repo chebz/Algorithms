@@ -65,5 +65,32 @@
     <ClInclude Include="LongestPalindromeManachers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UndirectedGraphClone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PalindromePartition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PalindromePartition2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LargestConseqSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WordLadder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxPathSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DistinctSubsequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

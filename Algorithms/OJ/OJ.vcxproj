@@ -82,17 +82,26 @@
     <ClInclude Include="BinaryPreOrder.h" />
     <ClInclude Include="Candy.h" />
     <ClInclude Include="CopyListRandom.h" />
+    <ClInclude Include="DistinctSubsequence.h" />
     <ClInclude Include="GasStation.h" />
     <ClInclude Include="InsertSort.h" />
+    <ClInclude Include="LargestConseqSequence.h" />
     <ClInclude Include="ListSort.h" />
     <ClInclude Include="LongestPalindromeManachers.h" />
     <ClInclude Include="LRUCache.h" />
+    <ClInclude Include="MaxPathSum.h" />
     <ClInclude Include="maxPointsOnLine.h" />
     <ClInclude Include="MergeSortWithIterator.h" />
+    <ClInclude Include="PalindromePartition.h" />
+    <ClInclude Include="PalindromePartition2.h" />
     <ClInclude Include="RPN.h" />
     <ClInclude Include="SingleNumber.h" />
+    <ClInclude Include="Stock2.h" />
+    <ClInclude Include="Stock3.h" />
+    <ClInclude Include="UndirectedGraphClone.h" />
     <ClInclude Include="WordBreak.h" />
     <ClInclude Include="WordBreak2.h" />
+    <ClInclude Include="WordLadder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />

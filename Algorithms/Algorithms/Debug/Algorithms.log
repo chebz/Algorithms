@@ -1,4 +1,4 @@
-﻿Build started 8/16/2014 12:49:53 PM.
+﻿Build started 9/2/2014 5:18:38 PM.
      1>Project "C:\Users\Misha\Documents\GitHub\Algorithms\Algorithms\Algorithms\Algorithms.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Algorithms.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -11,4 +11,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.14
+Time Elapsed 00:00:01.40
