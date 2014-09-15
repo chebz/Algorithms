@@ -11,3 +11,5 @@ Algorithms/Algorithms.opensdf
 *.tlog
 *.tlog
 Algorithms/OJ/Debug/
+Google/Debug/
+*.filters

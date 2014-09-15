@@ -1,18 +1,12 @@
 #include <iostream>
-#include "DisjointBitmap.h"
-#include "TicTacToe.h"
-#include "HeapSort.h"
-#include "RegExMatch.h"
-#include "Tuples.h"
-#include "Pow.h"
-#include "Palindrome.h"
-#include "ZigZag.h"
+#include "BinaryBufferReader1.h"
 
 using namespace std;
 
 int main()
 {
-	testCountTuples();
+	Solution s;
+	s.test2();
 
 	int n;
 	cin >> n;

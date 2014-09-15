@@ -1,5 +1,5 @@
 #include <iostream>
-#include "DistinctSubsequence.h"
+#include "PathSum2.h"
 using namespace std;
 
 int main()

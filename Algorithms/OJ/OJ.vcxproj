@@ -94,6 +94,7 @@
     <ClInclude Include="MergeSortWithIterator.h" />
     <ClInclude Include="PalindromePartition.h" />
     <ClInclude Include="PalindromePartition2.h" />
+    <ClInclude Include="PathSum2.h" />
     <ClInclude Include="RPN.h" />
     <ClInclude Include="SingleNumber.h" />
     <ClInclude Include="Stock2.h" />
