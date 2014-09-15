@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryBufferReader1.h" />
+    <ClInclude Include="CoinsOnPoints.h" />
     <ClInclude Include="DisjointBitmap.h" />
     <ClInclude Include="HeapSort.h" />
     <ClInclude Include="Palindrome.h" />

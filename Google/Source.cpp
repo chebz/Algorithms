@@ -1,12 +1,12 @@
 #include <iostream>
-#include "BinaryBufferReader1.h"
+#include "CoinsOnPoints.h"
 
 using namespace std;
 
 int main()
 {
 	Solution s;
-	s.test2();
+	s.test();
 
 	int n;
 	cin >> n;
