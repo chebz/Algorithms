@@ -81,6 +81,7 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryAddition.h" />
     <ClInclude Include="BinaryBufferReader1.h" />
     <ClInclude Include="CoinsOnPoints.h" />
     <ClInclude Include="DisjointBitmap.h" />

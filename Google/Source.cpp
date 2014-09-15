@@ -1,5 +1,5 @@
 #include <iostream>
-#include "CoinsOnPoints.h"
+#include "BinaryAddition.h"
 
 using namespace std;
 
