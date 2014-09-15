@@ -1,5 +1,5 @@
 #include <iostream>
-#include "BinaryAddition.h"
+#include "BinaryBufferReader2.h"
 
 using namespace std;
 
